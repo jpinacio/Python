@@ -1,165 +1,165 @@
-Questão 1)
+Question 1)
 
-A = int(input("Digite o valor de A: "))
-B = int(input("Digite o valor de B: "))
-C = int(input("Digite o valor de C: "))
-soma = A + B
+A = int(input("Enter the value of A: "))
+B = int(input("Enter the value of B: "))
+C = int(input("Enter the value of C: "))
+sum = A + B
 if C > soma :
-    print ("C é maior que A + B")
+    print ("C is bigger than A + B")
 elif C < soma :
-    print ("C é menor que A + B")
+    print ("C is less than A + B")
 else :
-    print ("C é igual a A + B")
+    print ("C equals A+B")
 
 -------------------------------------------------------------------------------------------------
 
-Questão 2)
+Question 2)
 
-A = int(input("Digite um número: "))
-teste = A / 2
-resultado = teste % 1
-if resultado == 0.0 :
-    print("Número Par")
+A = int(input("Enter a Number: "))
+test = A / 2
+result = test % 1
+if result == 0.0 :
+    print("Even Number")
 else :
-    print("Número ímpar")
+    print("Odd Number")
 --------------------------------------------------------------------------------------------------
 
-Questão 3)
+Question 3)
 
-A = int(input("Digite o valor de A: "))
-B = int(input("Digite o valor de B: "))
+A = int(input("Enter the value of A: "))
+B = int(input("Enter the value of B: "))
 if A == B :
     C = A + B
-    print ("Resultado: ", C)
+    print ("Result: ", C)
 else :
     C = A * B
-    print ("Resultado: ", C)
+    print ("Result: ", C)
 
 -------------------------------------------------------------------------------------------------
-Questão 4)
+Question 4)
 
-A = int(input("Digite um número: "))
-dobro = A * 2
-triplo = A * 3
+A = int(input("Enter a Number: "))
+double = A * 2
+triple = A * 3
 if A <= -1 :
-    print ("O número é negativo, resultado: ", triplo)
+    print ("The number is negative, result: ", triple)
 else :
-    print ("O número é positivo, resultado: ", dobro)
+    print ("The number is positive, result: ", double)
 
 -----------------------------------------------------------------------------------------------------
 
-Questão 5)
+Question 5)
 
-num = int(input("Digite um número: "))
-teste = num / 2
-fim = teste % 1 
-if fim == 0.0 :
-    resultado = num + 5
-    print ("O número é par, adicionamos 5, resultado: ", resultado)
+num = int(input("Enter a number: "))
+test = num / 2
+end = test % 1 
+if end == 0.0 :
+    result = num + 5
+    print ("The number is even, we add 5, result: ", result)
 else :
-    resultado2 = num + 8
-    print ("O número é ímpar, adicionamos 8, resultado: ", resultado2)
+    result2 = num + 8
+    print ("The number is odd, we add 8, result: ", result2)
 
 -----------------------------------------------------------------------------------------------------
 
-Questão 6)
+Question 6)
 
-A = int(input("Digite um número: "))
-B = int(input("Digite outro número diferente: "))
-C = int(input("Digite outro número diferente: "))
+A = int(input("Enter a number: "))
+B = int(input("Enter another different number: "))
+C = int(input("Enter another different number: "))
 if A > B and A > C and B > C :
-    print ("A ordem é: ", A, B, C)
+    print ("the order is: ", A, B, C)
 elif A > B and A > C and C > B :
-    print ("A ordem é: ", A, C, B)
+    print ("the order is: ", A, C, B)
 elif C > A and C > B and B > A :
-    print ("A ordem é: ", C, B, A)
+    print ("the order is: ", C, B, A)
 elif C > A and C > B and A > B :
-    print ("A ordem é: ", C, A, B)
+    print ("the order is: ", C, A, B)
 elif B > A and B > C and A > C :
-    print ("A ordem é: ", B, A, C)
+    print ("the order is: ", B, A, C)
 elif B > A and B > C and C > A :
-    print ("A ordem é: ", B, C, A)
+    print ("the order is: ", B, C, A)
 
 ------------------------------------------------------------------------------------------------------------
 
-Questão 7)
+Question 7)
 
-h = float(input("Digite sua Altura:"))
-g = (input("Informe seu gênero (Homem ou Mulher): ")).lower()
-if g == "homem" :
+h = float(input("Enter your height:"))
+g = (input("Enter your gender (Man or Woman): ")).lower()
+if g == "man" :
     kg = (72.7 * h) - 58 
-    print("Seu peso ideal é: ", kg)
-elif g == "mulher" :
+    print("Your ideal weight is: ", kg)
+elif g == "woman" :
     kg = (62.1 * h) - 44.7
-    print("Seu peso ideal é: ", kg)
+    print("Your ideal weight is: ", kg)
 else :
-    print ("Erro, Gênero não identificado")
+    print ("Error, Genre not identified")
 
 --------------------------------------------------------------------------------------------------------------
 
-Questão 8)
+Question 8)
 
-h = float(input("Digite sua altura: "))
-kg = float(input("Digite seu peso: "))
+h = float(input("Enter your height: "))
+kg = float(input("Enter your weight: "))
 imc = kg / (h)**2
 if imc < 18.5 :
-    print ("Você está abaixo do peso")
+    print ("You are underweight")
 elif imc >= 18.5 and imc <= 25 :
-    print ("Você está com o peso normal")
+    print ("You are at normal weight")
 elif imc >= 25 and imc <= 30 :
-    print ("Você está acima do peso")
+    print ("Are you overweight")
 else:
-    print ("Você está obeso")
+    print ("You are obese")
 
 ---------------------------------------------------------------------------------------------------------------
 
-Questão 9)
+Question 9)
 
-preco = int(input("Digite o preço do produto: "))
-modo = (input("Formas de pagamento:\n 1. Dinheiro\n 2. Cheque\n 3. Cartão de crédito\n 4. Parcelado em 2x\n 5. Parcelado em 2x com Juros \n Escolha uma opção de 1 a 5 : ")).lower()
-op1e2 = preco * 0.9
+preco = int(input("Enter product price: "))
+modo = (input("Payment methods:\n 1. Money\n 2. Check\n 3. Credit Card\n 4. Installments in 2x\n 5. Installments in 2x with interest \n Escolha uma opção de 1 a 5 : ")).lower()
+op1and2 = preco * 0.9
 op3 = preco * 0.85
 op4 = preco
 op5 = preco * 1.10
-parcela = op5 / 2
+portion = op5 / 2
 if modo == "1" or modo == "2" :
-    print ("Á vista, recebe desconto de 10%, preço final: ", op1e2)
+    print ("At sight, receive a 10% discount, final price: ", op1and2)
 elif modo == "3" :
-    print ("No cartão de crédito, é recebido 15% de desconto, preço final: ", op3)
+    print ("On credit card, 15% discount is received, final price: ", op3)
 elif modo == "4" :
-    print ("Parcelado sem juros, preço final: ", op4)
+    print ("Interest-free installments, final price: ", op4)
 elif modo == "5" :
-    print ("Parcelando em duas vezes colocamos um taxa em juros de 10%, preço final: ", op5 )
-    print ("Ficando duas parcelas de: ", parcela)
+    print ("Parcelando in two installments we put an interest rate of 10%, final price: ", op5 )
+    print ("Leaving two installments of: ", portion)
 else :
-    print("Forma de pagamento inválida")
+    print("Invalid payment method")
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Questão 10)
+Question 10)
 
-idaluno = input ("Digite seu código de verificação: ")
-nota1 = float (input("Digite sua primeira nota: "))
-nota2 = float (input("Digite sua segunda nota: "))
-nota3 = float (input("Digite sua terceira nota: "))
-me = (nota1 + nota2 + nota3) / 3
-ma = (nota1 + nota2 * 2 + nota3 * 3 + me)/7
-if(ma >= 9.0) :
-    notafinal ="A"
+idstudent = input ("Enter your verification code: ")
+note1 = float (input("Enter your first note: "))
+note2 = float (input("Enter your second note: "))
+note3 = float (input("Enter your third note: "))
+gpm = (note1 + note2 + note3) / 3
+gpa = (note1 + note2 * 2 + note3 * 3 + gpm)/7
+if(gpa >= 9.0) :
+    finalgrade ="A"
 elif (ma >= 7.5 and ma <9.0) :
-    notafinal = "B"
+    finalgrade = "B"
 elif (ma >= 6.0 and ma <7.5) :
-    notafinal = "C"
+    finalgrade = "C"
 elif (ma >= 4.0 and ma <6.0) :
-    notafinal = "D"
+    finalgrade = "D"
 elif(ma < 7.0) :
-    notafinal = "E"
-print( "ID do aluno: ", idaluno)
-print("Notas", nota1,nota2,nota3)
-print("Média dos exercicios :", me)
-print("Aproveitamento",ma)
-print("Nota final:", notafinal)
-if ( notafinal == "A" or notafinal == "B" or notafinal== "C" ):
+    finalgrade = "E"
+print( "Student ID: ", idstudent)
+print("Notes", note1,note2,note3)
+print("Average of the exercises :", gpm)
+print("Exploitation",gpa)
+print("Final grade:", finalgrade)
+if ( finalgrade == "A" or finalgrade == "B" or finalgrade== "C" ):
      print("Aluno: Aprovado")
 else :
     print ("Aluno: Reprovado")
