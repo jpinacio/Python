@@ -1,4 +1,4 @@
-FOOTBALL TEAM
+(FOOTBALL TEAM)
 
 
 
@@ -28,7 +28,7 @@ else :
 
 ---------------------------------------------------------------------------
 
-BRASIL PRODUCT ORIGINS
+(BRASIL PRODUCT ORIGINS)
 
 
 
@@ -64,7 +64,7 @@ else :
 
 
 
-VASCO X FLAMENGO (Brazilian football teams)
+VASCO X FLAMENGO Brazilian football teams
 
 
 
@@ -87,7 +87,7 @@ else :
 
 
 --------------------------------------------------------------------------------------------------------------------
-PRODUCT CODE + OPERATION
+(PRODUCT CODE OPERATION)
 
 
 
@@ -135,7 +135,7 @@ else :
 
 -------------------------------------------------------------------------------------------------------------------
 
-SALARY INCREASES
+(SALARY INCREASES)
 
 
 
@@ -167,7 +167,7 @@ else :
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-BIGGER AND SMALLER NUMBERS
+(BIGGER AND SMALLER NUMBERS)
 
 
 
