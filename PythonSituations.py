@@ -64,7 +64,7 @@ else :
 
 
 
-VASCO X FLAMENGO Brazilian football teams
+VASCO X FLAMENGO 
 
 
 
