@@ -1,0 +1,167 @@
+Questão 1)
+
+A = int(input("Digite o valor de A: "))
+B = int(input("Digite o valor de B: "))
+C = int(input("Digite o valor de C: "))
+soma = A + B
+if C > soma :
+    print ("C é maior que A + B")
+elif C < soma :
+    print ("C é menor que A + B")
+else :
+    print ("C é igual a A + B")
+
+-------------------------------------------------------------------------------------------------
+
+Questão 2)
+
+A = int(input("Digite um número: "))
+teste = A / 2
+resultado = teste % 1
+if resultado == 0.0 :
+    print("Número Par")
+else :
+    print("Número ímpar")
+--------------------------------------------------------------------------------------------------
+
+Questão 3)
+
+A = int(input("Digite o valor de A: "))
+B = int(input("Digite o valor de B: "))
+if A == B :
+    C = A + B
+    print ("Resultado: ", C)
+else :
+    C = A * B
+    print ("Resultado: ", C)
+
+-------------------------------------------------------------------------------------------------
+Questão 4)
+
+A = int(input("Digite um número: "))
+dobro = A * 2
+triplo = A * 3
+if A <= -1 :
+    print ("O número é negativo, resultado: ", triplo)
+else :
+    print ("O número é positivo, resultado: ", dobro)
+
+-----------------------------------------------------------------------------------------------------
+
+Questão 5)
+
+num = int(input("Digite um número: "))
+teste = num / 2
+fim = teste % 1 
+if fim == 0.0 :
+    resultado = num + 5
+    print ("O número é par, adicionamos 5, resultado: ", resultado)
+else :
+    resultado2 = num + 8
+    print ("O número é ímpar, adicionamos 8, resultado: ", resultado2)
+
+-----------------------------------------------------------------------------------------------------
+
+Questão 6)
+
+A = int(input("Digite um número: "))
+B = int(input("Digite outro número diferente: "))
+C = int(input("Digite outro número diferente: "))
+if A > B and A > C and B > C :
+    print ("A ordem é: ", A, B, C)
+elif A > B and A > C and C > B :
+    print ("A ordem é: ", A, C, B)
+elif C > A and C > B and B > A :
+    print ("A ordem é: ", C, B, A)
+elif C > A and C > B and A > B :
+    print ("A ordem é: ", C, A, B)
+elif B > A and B > C and A > C :
+    print ("A ordem é: ", B, A, C)
+elif B > A and B > C and C > A :
+    print ("A ordem é: ", B, C, A)
+
+------------------------------------------------------------------------------------------------------------
+
+Questão 7)
+
+h = float(input("Digite sua Altura:"))
+g = (input("Informe seu gênero (Homem ou Mulher): ")).lower()
+if g == "homem" :
+    kg = (72.7 * h) - 58 
+    print("Seu peso ideal é: ", kg)
+elif g == "mulher" :
+    kg = (62.1 * h) - 44.7
+    print("Seu peso ideal é: ", kg)
+else :
+    print ("Erro, Gênero não identificado")
+
+--------------------------------------------------------------------------------------------------------------
+
+Questão 8)
+
+h = float(input("Digite sua altura: "))
+kg = float(input("Digite seu peso: "))
+imc = kg / (h)**2
+if imc < 18.5 :
+    print ("Você está abaixo do peso")
+elif imc >= 18.5 and imc <= 25 :
+    print ("Você está com o peso normal")
+elif imc >= 25 and imc <= 30 :
+    print ("Você está acima do peso")
+else:
+    print ("Você está obeso")
+
+---------------------------------------------------------------------------------------------------------------
+
+Questão 9)
+
+preco = int(input("Digite o preço do produto: "))
+modo = (input("Formas de pagamento:\n 1. Dinheiro\n 2. Cheque\n 3. Cartão de crédito\n 4. Parcelado em 2x\n 5. Parcelado em 2x com Juros \n Escolha uma opção de 1 a 5 : ")).lower()
+op1e2 = preco * 0.9
+op3 = preco * 0.85
+op4 = preco
+op5 = preco * 1.10
+parcela = op5 / 2
+if modo == "1" or modo == "2" :
+    print ("Á vista, recebe desconto de 10%, preço final: ", op1e2)
+elif modo == "3" :
+    print ("No cartão de crédito, é recebido 15% de desconto, preço final: ", op3)
+elif modo == "4" :
+    print ("Parcelado sem juros, preço final: ", op4)
+elif modo == "5" :
+    print ("Parcelando em duas vezes colocamos um taxa em juros de 10%, preço final: ", op5 )
+    print ("Ficando duas parcelas de: ", parcela)
+else :
+    print("Forma de pagamento inválida")
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Questão 10)
+
+idaluno = input ("Digite seu código de verificação: ")
+nota1 = float (input("Digite sua primeira nota: "))
+nota2 = float (input("Digite sua segunda nota: "))
+nota3 = float (input("Digite sua terceira nota: "))
+me = (nota1 + nota2 + nota3) / 3
+ma = (nota1 + nota2 * 2 + nota3 * 3 + me)/7
+if(ma >= 9.0) :
+    notafinal ="A"
+elif (ma >= 7.5 and ma <9.0) :
+    notafinal = "B"
+elif (ma >= 6.0 and ma <7.5) :
+    notafinal = "C"
+elif (ma >= 4.0 and ma <6.0) :
+    notafinal = "D"
+elif(ma < 7.0) :
+    notafinal = "E"
+print( "ID do aluno: ", idaluno)
+print("Notas", nota1,nota2,nota3)
+print("Média dos exercicios :", me)
+print("Aproveitamento",ma)
+print("Nota final:", notafinal)
+if ( notafinal == "A" or notafinal == "B" or notafinal== "C" ):
+     print("Aluno: Aprovado")
+else :
+    print ("Aluno: Reprovado")
+
+
