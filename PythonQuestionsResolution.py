@@ -129,7 +129,7 @@ elif modo == "3" :
 elif modo == "4" :
     print ("Interest-free installments, final price: ", op4)
 elif modo == "5" :
-    print ("Parcelando in two installments we put an interest rate of 10%, final price: ", op5 )
+    print ("In two installments we put an interest rate of 10%, final price: ", op5 )
     print ("Leaving two installments of: ", portion)
 else :
     print("Invalid payment method")
