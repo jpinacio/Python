@@ -3,7 +3,7 @@ Question 1)
 A = int(input("Enter the value of A: "))
 B = int(input("Enter the value of B: "))
 C = int(input("Enter the value of C: "))
-sum = A + B
+soma = A + B
 if C > soma :
     print ("C is bigger than A + B")
 elif C < soma :
